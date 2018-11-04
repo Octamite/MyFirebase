@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/name_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/phone_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your phone"
+        android:padding="5dp"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/address_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your address"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/email_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/password_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/retype_password_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Retype password"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:id="@+id/register_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
